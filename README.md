@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Benim Site</title>
-
+  <title>Para Kazan</title>
   <style>
     body {
-      background: black;
+      margin: 0;
+      background: #0f0f0f;
       color: white;
       font-family: Arial;
       text-align: center;
-      margin-top: 100px;
     }
 
     .box {
-      background: #222;
-      padding: 20px;
-      border-radius: 15px;
-      display: inline-block;
+      padding: 60px 20px;
     }
 
-    button {
-      padding: 10px;
+    h1 {
+      font-size: 36px;
+      color: #00ffcc;
+    }
+
+    p {
+      color: #ccc;
+      font-size: 18px;
+    }
+
+    .btn {
+      margin-top: 25px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background: #00ffcc;
       border: none;
-      border-radius: 10px;
-      background: lime;
       cursor: pointer;
     }
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <h1>Benim Portfolyo</h1>
-    <p>Bu site benim</p>
-    <button>Bana tıkla</button>
-  </div>
+
+<div class="box">
+  <h1>Online Para Kazan</h1>
+  <p>Hemen başla ve kazanmaya başla</p>
+
+  <a href="BURAYA_LINK" target="_blank">
+    <button class="btn">Başla</button>
+  </a>
+</div>
+
 </body>
 </html>
